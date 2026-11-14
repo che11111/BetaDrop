@@ -1,0 +1,5 @@
+name: BetaDrop
+main: dev.che1s.betadrop.BetaDropPlugin
+version: 1.0.0
+author: che1s
+description: Custom block drops based on the held item and broken block for Minecraft Beta 1.7.3

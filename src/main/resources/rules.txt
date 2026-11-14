@@ -1,0 +1,46 @@
+# ==============================
+# Custom block drop rules / 自定义掉落规则配置
+# Format: Held item|Block|Drops*amount[,Drops*amount...] / 格式: 手持物品|方块|掉落物*数量[,掉落物*数量...]
+# Trailing comments: Start with # / 行尾注释: 使用 # 开始
+# ==============================
+
+# Wood pickaxe on cobblestone → 1 mossy cobblestone / 木镐采圆石 → 1 个苔石
+WOOD_PICKAXE|4|48*1
+# Wood pickaxe on ice → 1 ice / 木镐采冰 → 1 个冰
+WOOD_PICKAXE|79|79*1
+# Wood pickaxe on diamond ore → 1 diamond ore / 木镐采钻石矿 → 1 个钻石矿
+WOOD_PICKAXE|56|56*1
+# Wood pickaxe on coal ore → 1 coal ore / 木镐采煤矿 → 1 个煤矿
+WOOD_PICKAXE|16|16*1
+# Wood pickaxe on glowing redstone ore → 1 redstone ore / 木镐采发光的红石矿 → 1 个红石矿
+WOOD_PICKAXE|74|73*1
+# Wood pickaxe on lapis ore → 1 lapis ore / 木镐采青金石矿 → 1 个青金石矿
+WOOD_PICKAXE|21|21*1
+# Wood pickaxe on furnace → 1 burning furnace / 木镐采熔炉 → 1 个燃烧中的熔炉
+WOOD_PICKAXE|61|62*1
+# Wood shovel on snow layer → 1 snow layer / 木铲采雪层 → 1 个雪层
+WOOD_SPADE|78|78*1
+# Gold axe on log → 2 logs / 金斧采原木 → 2 个原木
+GOLD_AXE|17|17*2
+
+# Gold shovel on sand → 2 sand / 金铲采沙子 → 2 个沙子
+GOLD_SPADE|12|12*2 
+# Gold shovel on clay → 2 clay blocks / 金铲采黏土块 → 2 个黏土块
+GOLD_SPADE|CLAY|CLAY*2
+
+# Hold dye while mining white wool to drop wool of the corresponding color / 手持染料挖掘白色羊毛，掉落对应颜色的羊毛
+351|35|35:15*1
+351:1|35|35:14*1
+351:2|35|35:13*1
+351:3|35|35:12*1
+351:4|35|35:11*1
+351:5|35|35:10*1
+351:6|35|35:9*1
+351:7|35|35:8*1
+351:8|35|35:7*1
+351:9|35|35:6*1
+351:10|35|35:5*1
+351:11|35|35:4*1
+351:12|35|35:3*1
+351:13|35|35:2*1
+351:14|35|35:1*1
