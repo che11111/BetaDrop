@@ -1,4 +1,3 @@
-<!-- BetaDrop animated logo loaded from the remote repository. -->
 <p align="center">
   <img src="https://raw.githubusercontent.com/che11111/BetaDrop/main/img/BetaDrop.gif" alt="BetaDrop Logo" width="220">
 </p>
